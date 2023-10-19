@@ -26,7 +26,7 @@ export default async function Home() {
           <Link href="/london?name=런던">런던</Link>
         </li>
       </ul>
-      <RevalidateButton tag={"time"}>캐시 비우기</RevalidateButton>
+      <RevalidateButton tag={"time"} />
     </>
   );
 }
